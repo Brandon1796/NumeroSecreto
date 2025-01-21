@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styleAmigoEscoge.css">
+    <title>JS Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__contenido">
+            <img src="./img/robot.png" alt="Robot" class="container__imagen-robot" />
+            <div class="container__informaciones">
+                <img src="./img/trophy.png" alt="Icono de trofeo" />
+                 <div class="container__texto">
+                    <h1><span class="container__texto-azul">Seleciona un numero del 1 al 100</span></h1>
+                    <h2 class="texto__parrafo"> Este es el numero que tu amigo debe encontrar</h2>
+                </div>
+                <input type="number" id="dataInput" min="1" max="100" class="container__input">
+                    
+                <div class="chute container__botones">
+
+                    <button onclick="";  event="Keypress" class="container__boton" id="saveData" >Empezar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="appAmigoEscoge.js"></script>
+</body>
+</html>
